@@ -1,7 +1,7 @@
 
 ##  Contenido
-- **dataset.xlsx** → Base de datos de clientes con variables demográficas, de contrato y facturación.
-- **notebook.ipynb** → Código en Python (Google Colab/Jupyter) para:
+- **dataset.xlsx** → Base de datos de clientes con variables demográficas, de contrato y facturación. Exportado del primer Challenge.
+- **notebook.ipynb** → Código en Python (Google Colab) para:
   - Carga y exploración de datos
   - Preprocesamiento (codificación de variables categóricas, normalización)
   - Balanceo con SMOTE
@@ -23,7 +23,7 @@
 ---
 
 ##  Flujo del proyecto
-1. **Carga de datos** desde Excel.
+1. **Carga de datos** desde Excel (xls)
 2. **Limpieza y preprocesamiento**:
    - Eliminación de filas sin la variable objetivo (`Churn`).
    - Codificación de variables categóricas con OneHotEncoder.
